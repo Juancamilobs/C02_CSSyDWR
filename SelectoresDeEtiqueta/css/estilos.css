@@ -27,6 +27,8 @@ img
 .enlace{
   color: red;
 }
+/*con ^ busca al inicio, con $ al final, con ~busca en toda la palabra con con espacios, con
+|  busca al inicio y al final sin espacios */
 a[href^='#']{
   color: red;
 }
@@ -37,18 +39,23 @@ img[src$='jpg'],img[src$='png']{
   border: 1px solid black;
   border-radius: 5px
 }
+/* el asterisco es a todo el documento */
 *{
   margin: 1vh 1vw;
 }
+/* a + b afecta a todos los b precedidos por a */
 h1 + h2{
   text-decoration: underline;
 }
+/* a ~ b afecta a los b que sean hijos directos inmediatos unicamente de a */
 h2 ~ p {
   text-align: justify;
 }
+/* a> b  afecta a todos los b que sean hijos directos, inmediatos o no de a*/
 article> h2 {
   text-decoration: underline;
 }
+/* a b, afecta a todos los b que esten dentro de a*/
 ul li {
   list-style-type: circle;
 }
