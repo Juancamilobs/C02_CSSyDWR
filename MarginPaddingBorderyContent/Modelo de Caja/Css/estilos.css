@@ -1,0 +1,26 @@
+/* Estilos de border:none, hidden(sale solo en tablas), dashed ----,
+dotted ..., double ||, groove efecto de hundimiento en el borde,
+inset efecto de hundimiento en la caja, outset la caja parecce salir,
+ridge el borde sale, solid linea solida*/
+article[class^='caja']{
+  /*la mejor forma de poner estas propiedades es todas
+  en una sola linea */
+  border:4px;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+  height:  220px;
+  width: 400px;
+  text-align: justify;
+  padding: 10px
+  /* margin recibe 4 valores, arriba derecha abajo izq.
+  un solo valor, todos los lados
+  dos valores, el primero arriba y abajo, el segundo izq-der*/
+
+}
+.caja1{
+  margin: 50px 20px
+}
+.caja2{
+
+}
