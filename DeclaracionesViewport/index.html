@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=yes">
+    <title>Declaraciones de Viewport</title>
+  </head>
+  <body>
+    <h1>HTML 5</h1>
+    <figure>
+      <figcaption>Imagen principal de un robot</figcaption>
+      <img src="images/robot.jpg" alt="Imagen de robot" title="Imagen de robot" width="100%">
+    </figure>
+    <h1>Imagenes de prueba</h1>
+    <picture  width="50%">
+      <source media="(min-width:499px)" srcset="images/gato.jpg" >
+      <source media="(min-width:350px)" srcset="images/carro.jpg">
+      <source media="(min-width:280px)" srcset="images/robot.jpg">
+      <img src="images/download.jpg"/>
+    </picture>
+  </body>
+</html>
