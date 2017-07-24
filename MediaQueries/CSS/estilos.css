@@ -1,0 +1,38 @@
+@media print {
+  img{
+    width: 100%;
+  }
+  h1{
+    text-align: center;
+  }
+}
+@media screen{
+  h1{
+    text-align: right;
+  }
+  img{
+    width: 100%;
+  }
+
+}
+@media (max-width:420px) {
+  p{
+    color:red;
+  }
+  img{
+    width:50%;
+  }
+}
+@media (min-width:421px) and (max-width:720px) {
+  p{
+    color: blue;
+  }
+  img{
+    width: 25%;
+  }
+}
+@media (min-width:721px) {
+  p{
+    color: orange;
+  }
+}
