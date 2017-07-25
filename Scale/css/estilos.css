@@ -3,15 +3,22 @@ div {
     height: 100px;
     background-color: yellow;
     border: 1px solid black;
+    margin-left: 10px;
+
 }
 
 #original {
   margin-top: 20px;
-  margin-left: 20px;
   margin-bottom: 100px;
 }
 
 #transformado {
-  transform: rotatez(180deg);
-  margin: 30px;
+  transform: scale(0.3,2.5);
+  margin-bottom: 200px;
+}
+
+#transformado2 {
+
+  transform: scale(1,1.2);
+  margin-left: 10px;
 }
